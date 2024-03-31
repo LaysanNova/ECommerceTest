@@ -63,3 +63,351 @@ NavigationTest.testWomenNavigatesToWomenPage                           ✅ PASS 
 
 2024-03-31 10:55:50.889 INFO  - Browser closed.
 2024-03-31 10:55:50.901 INFO  - Playwright closed.
+2024-03-31 11:03:34.950 INFO  - 
+----------------------------------------------------------------------------------------------------
+										TEST RUN
+								DATA: 2024-31-03, 11:03
+
+----------------------------------------------------------------------------------------------------
+2024-03-31 11:03:34.951 INFO  - Playwright created.
+2024-03-31 11:03:34.952 INFO  - Browser chromium is connected.
+2024-03-31 11:03:34.971 INFO  - Run test NavigationTest.TestBaseUrlLanding
+
+2024-03-31 11:03:34.983 INFO  - Context created.
+2024-03-31 11:03:35.197 INFO  - Page created.
+2024-03-31 11:03:35.468 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:03:35.591 INFO  - Page closed.
+2024-03-31 11:03:35.635 INFO  - Context closed.
+2024-03-31 11:03:35.638 INFO  - NavigationTest.TestBaseUrlLanding                                      ✅ PASS 0 min 0 sec 60 ms
+
+2024-03-31 11:03:35.643 INFO  - Run test NavigationTest.testAboutNavigatesToAboutPage
+
+2024-03-31 11:03:35.648 INFO  - Context created.
+2024-03-31 11:03:35.799 INFO  - Page created.
+2024-03-31 11:03:36.298 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:03:36.413 INFO  - Page closed.
+2024-03-31 11:03:36.470 INFO  - Context closed.
+2024-03-31 11:03:36.471 INFO  - NavigationTest.testAboutNavigatesToAboutPage                           ✅ PASS 0 min 0 sec 105 ms
+
+2024-03-31 11:03:36.473 INFO  - Run test NavigationTest.testAccessoriesNavigatesToAccessoriesPage
+
+2024-03-31 11:03:36.485 INFO  - Context created.
+2024-03-31 11:03:36.701 INFO  - Page created.
+2024-03-31 11:03:36.939 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:03:37.088 INFO  - Page closed.
+2024-03-31 11:03:37.146 INFO  - Context closed.
+2024-03-31 11:03:37.146 INFO  - NavigationTest.testAccessoriesNavigatesToAccessoriesPage               ✅ PASS 0 min 0 sec 136 ms
+
+2024-03-31 11:03:37.150 INFO  - Run test NavigationTest.testMenNavigatesToMenPage
+
+2024-03-31 11:03:37.166 INFO  - Context created.
+2024-03-31 11:03:37.377 INFO  - Page created.
+2024-03-31 11:03:37.636 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:03:37.762 INFO  - Page closed.
+2024-03-31 11:03:37.828 INFO  - Context closed.
+2024-03-31 11:03:37.828 INFO  - NavigationTest.testMenNavigatesToMenPage                               ✅ PASS 0 min 0 sec 116 ms
+
+2024-03-31 11:03:37.831 INFO  - Run test NavigationTest.testWomenNavigatesToWomenPage
+
+2024-03-31 11:03:37.847 INFO  - Context created.
+2024-03-31 11:03:38.015 INFO  - Page created.
+2024-03-31 11:03:38.244 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:03:38.384 INFO  - Page closed.
+2024-03-31 11:03:38.454 INFO  - Context closed.
+2024-03-31 11:03:38.455 INFO  - NavigationTest.testWomenNavigatesToWomenPage                           ✅ PASS 0 min 0 sec 131 ms
+
+2024-03-31 11:03:38.640 INFO  - Browser closed.
+2024-03-31 11:03:38.652 INFO  - Playwright closed.
+2024-03-31 11:04:43.781 INFO  - 
+----------------------------------------------------------------------------------------------------
+										TEST RUN
+								DATA: 2024-31-03, 11:04
+
+----------------------------------------------------------------------------------------------------
+2024-03-31 11:04:43.783 INFO  - Playwright created.
+2024-03-31 11:04:43.783 INFO  - Browser chromium is connected.
+2024-03-31 11:04:43.802 INFO  - Run test NavigationTest.TestBaseUrlLanding
+
+2024-03-31 11:04:43.817 INFO  - Context created.
+2024-03-31 11:04:44.009 INFO  - Page created.
+2024-03-31 11:04:44.306 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:04:44.434 INFO  - Page closed.
+2024-03-31 11:04:44.473 INFO  - Context closed.
+2024-03-31 11:04:44.477 INFO  - NavigationTest.TestBaseUrlLanding                              ✅ PASS 0 min 0 sec 72 ms
+
+2024-03-31 11:04:44.483 INFO  - Run test NavigationTest.testAboutNavigatesToAboutPage
+
+2024-03-31 11:04:44.491 INFO  - Context created.
+2024-03-31 11:04:44.695 INFO  - Page created.
+2024-03-31 11:04:44.990 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:04:45.132 INFO  - Page closed.
+2024-03-31 11:04:45.168 INFO  - Context closed.
+2024-03-31 11:04:45.168 INFO  - NavigationTest.testAboutNavigatesToAboutPage                   ✅ PASS 0 min 0 sec 132 ms
+
+2024-03-31 11:04:45.171 INFO  - Run test NavigationTest.testAccessoriesNavigatesToAccessoriesPage
+
+2024-03-31 11:04:45.183 INFO  - Context created.
+2024-03-31 11:04:45.344 INFO  - Page created.
+2024-03-31 11:04:45.607 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:04:45.743 INFO  - Page closed.
+2024-03-31 11:04:45.774 INFO  - Context closed.
+2024-03-31 11:04:45.774 INFO  - NavigationTest.testAccessoriesNavigatesToAccessoriesPage       ✅ PASS 0 min 0 sec 128 ms
+
+2024-03-31 11:04:45.776 INFO  - Run test NavigationTest.testMenNavigatesToMenPage
+
+2024-03-31 11:04:45.792 INFO  - Context created.
+2024-03-31 11:04:45.936 INFO  - Page created.
+2024-03-31 11:04:46.196 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:04:46.316 INFO  - Page closed.
+2024-03-31 11:04:46.349 INFO  - Context closed.
+2024-03-31 11:04:46.349 INFO  - NavigationTest.testMenNavigatesToMenPage                       ✅ PASS 0 min 0 sec 111 ms
+
+2024-03-31 11:04:46.352 INFO  - Run test NavigationTest.testWomenNavigatesToWomenPage
+
+2024-03-31 11:04:46.362 INFO  - Context created.
+2024-03-31 11:04:46.480 INFO  - Page created.
+2024-03-31 11:04:46.815 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:04:46.939 INFO  - Page closed.
+2024-03-31 11:04:46.969 INFO  - Context closed.
+2024-03-31 11:04:46.970 INFO  - NavigationTest.testWomenNavigatesToWomenPage                   ✅ PASS 0 min 0 sec 112 ms
+
+2024-03-31 11:04:47.163 INFO  - Browser closed.
+2024-03-31 11:04:47.175 INFO  - Playwright closed.
+2024-03-31 11:05:37.592 INFO  - 
+----------------------------------------------------------------------------------------------------
+										TEST RUN
+								DATA: 2024-31-03, 11:05
+
+----------------------------------------------------------------------------------------------------
+2024-03-31 11:05:37.594 INFO  - Playwright created.
+2024-03-31 11:05:37.594 INFO  - Browser chromium is connected.
+2024-03-31 11:05:37.614 INFO  - Run test NavigationTest.TestBaseUrlLanding
+
+2024-03-31 11:05:37.626 INFO  - Context created.
+2024-03-31 11:05:37.807 INFO  - Page created.
+2024-03-31 11:05:38.114 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:05:38.225 INFO  - Page closed.
+2024-03-31 11:05:38.275 INFO  - Context closed.
+2024-03-31 11:05:38.278 INFO  - NavigationTest.TestBaseUrlLanding                              ✅ PASS 0 min 0 sec 
+
+2024-03-31 11:05:38.284 INFO  - Run test NavigationTest.testAboutNavigatesToAboutPage
+
+2024-03-31 11:05:38.292 INFO  - Context created.
+2024-03-31 11:05:38.470 INFO  - Page created.
+2024-03-31 11:05:38.722 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:05:38.837 INFO  - Page closed.
+2024-03-31 11:05:38.895 INFO  - Context closed.
+2024-03-31 11:05:38.896 INFO  - NavigationTest.testAboutNavigatesToAboutPage                   ✅ PASS 0 min 0 sec 
+
+2024-03-31 11:05:38.900 INFO  - Run test NavigationTest.testAccessoriesNavigatesToAccessoriesPage
+
+2024-03-31 11:05:38.913 INFO  - Context created.
+2024-03-31 11:05:39.139 INFO  - Page created.
+2024-03-31 11:05:39.383 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:05:39.520 INFO  - Page closed.
+2024-03-31 11:05:39.576 INFO  - Context closed.
+2024-03-31 11:05:39.577 INFO  - NavigationTest.testAccessoriesNavigatesToAccessoriesPage       ✅ PASS 0 min 0 sec 
+
+2024-03-31 11:05:39.579 INFO  - Run test NavigationTest.testMenNavigatesToMenPage
+
+2024-03-31 11:05:39.593 INFO  - Context created.
+2024-03-31 11:05:39.803 INFO  - Page created.
+2024-03-31 11:05:40.066 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:05:40.207 INFO  - Page closed.
+2024-03-31 11:05:40.260 INFO  - Context closed.
+2024-03-31 11:05:40.260 INFO  - NavigationTest.testMenNavigatesToMenPage                       ✅ PASS 0 min 0 sec 
+
+2024-03-31 11:05:40.262 INFO  - Run test NavigationTest.testWomenNavigatesToWomenPage
+
+2024-03-31 11:05:40.278 INFO  - Context created.
+2024-03-31 11:05:40.480 INFO  - Page created.
+2024-03-31 11:05:40.788 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:05:40.941 INFO  - Page closed.
+2024-03-31 11:05:41.012 INFO  - Context closed.
+2024-03-31 11:05:41.012 INFO  - NavigationTest.testWomenNavigatesToWomenPage                   ✅ PASS 0 min 0 sec 
+
+2024-03-31 11:05:41.182 INFO  - Browser closed.
+2024-03-31 11:05:41.192 INFO  - Playwright closed.
+2024-03-31 11:06:41.968 INFO  - 
+----------------------------------------------------------------------------------------------------
+										TEST RUN
+								DATA: 2024-31-03, 11:06
+
+----------------------------------------------------------------------------------------------------
+2024-03-31 11:06:41.970 INFO  - Playwright created.
+2024-03-31 11:06:41.970 INFO  - Browser chromium is connected.
+2024-03-31 11:06:41.989 INFO  - Run test NavigationTest.testMenNavigatesToMenPage
+
+2024-03-31 11:06:42.001 INFO  - Context created.
+2024-03-31 11:06:42.203 INFO  - Page created.
+2024-03-31 11:06:42.440 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:06:42.650 INFO  - Page closed.
+2024-03-31 11:06:42.706 INFO  - Context closed.
+2024-03-31 11:06:42.709 INFO  - NavigationTest.testMenNavigatesToMenPage                       ✅ PASS 0 min 0 sec 159 ms
+
+2024-03-31 11:06:42.861 INFO  - Browser closed.
+2024-03-31 11:06:42.873 INFO  - Playwright closed.
+2024-03-31 11:08:46.873 INFO  - 
+----------------------------------------------------------------------------------------------------
+										TEST RUN
+								DATA: 2024-31-03, 11:08
+
+----------------------------------------------------------------------------------------------------
+2024-03-31 11:08:46.876 INFO  - Playwright created.
+2024-03-31 11:08:46.876 INFO  - Browser chromium is connected.
+2024-03-31 11:08:46.896 INFO  - Run test NavigationTest.TestBaseUrlLanding
+
+2024-03-31 11:08:46.908 INFO  - Context created.
+2024-03-31 11:08:47.147 INFO  - Page created.
+2024-03-31 11:08:47.400 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:08:47.502 INFO  - Page closed.
+2024-03-31 11:08:47.548 INFO  - Context closed.
+2024-03-31 11:08:47.552 INFO  - NavigationTest.TestBaseUrlLanding                              ✅ PASS 0 min 0 sec 48 ms
+
+2024-03-31 11:08:47.557 INFO  - Run test NavigationTest.testAboutNavigatesToAboutPage
+
+2024-03-31 11:08:47.565 INFO  - Context created.
+2024-03-31 11:08:47.759 INFO  - Page created.
+2024-03-31 11:08:48.014 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:08:48.130 INFO  - Page closed.
+2024-03-31 11:08:48.190 INFO  - Context closed.
+2024-03-31 11:08:48.190 INFO  - NavigationTest.testAboutNavigatesToAboutPage                   ✅ PASS 0 min 0 sec 107 ms
+
+2024-03-31 11:08:48.194 INFO  - Run test NavigationTest.testAccessoriesNavigatesToAccessoriesPage
+
+2024-03-31 11:08:48.207 INFO  - Context created.
+2024-03-31 11:08:48.404 INFO  - Page created.
+2024-03-31 11:08:48.708 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:08:48.835 INFO  - Page closed.
+2024-03-31 11:08:48.898 INFO  - Context closed.
+2024-03-31 11:08:48.898 INFO  - NavigationTest.testAccessoriesNavigatesToAccessoriesPage       ✅ PASS 0 min 0 sec 119 ms
+
+2024-03-31 11:08:48.901 INFO  - Run test NavigationTest.testMenNavigatesToMenPage
+
+2024-03-31 11:08:48.913 INFO  - Context created.
+2024-03-31 11:08:49.110 INFO  - Page created.
+2024-03-31 11:08:49.382 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:08:49.515 INFO  - Page closed.
+2024-03-31 11:08:49.575 INFO  - Context closed.
+2024-03-31 11:08:49.575 INFO  - NavigationTest.testMenNavigatesToMenPage                       ✅ PASS 0 min 0 sec 124 ms
+
+2024-03-31 11:08:49.578 INFO  - Run test NavigationTest.testWomenNavigatesToWomenPage
+
+2024-03-31 11:08:49.590 INFO  - Context created.
+2024-03-31 11:08:49.815 INFO  - Page created.
+2024-03-31 11:08:50.065 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:08:50.197 INFO  - Page closed.
+2024-03-31 11:08:50.251 INFO  - Context closed.
+2024-03-31 11:08:50.251 INFO  - NavigationTest.testWomenNavigatesToWomenPage                   ✅ PASS 0 min 0 sec 121 ms
+
+2024-03-31 11:08:50.418 INFO  - Browser closed.
+2024-03-31 11:08:50.429 INFO  - Playwright closed.
+2024-03-31 11:11:21.630 INFO  - 
+----------------------------------------------------------------------------------------------------										TEST RUN
+								DATA: 2024-31-03, 11:11
+
+----------------------------------------------------------------------------------------------------
+2024-03-31 11:11:21.632 INFO  - Playwright created.
+2024-03-31 11:11:21.632 INFO  - Browser chromium is connected.
+2024-03-31 11:11:21.654 INFO  - Run test NavigationTest.TestBaseUrlLanding
+
+2024-03-31 11:11:21.668 INFO  - Context created.
+2024-03-31 11:11:21.908 INFO  - Page created.
+2024-03-31 11:11:22.195 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:11:22.299 INFO  - Page closed.
+2024-03-31 11:11:22.356 INFO  - Context closed.
+2024-03-31 11:11:22.360 INFO  - NavigationTest.TestBaseUrlLanding                              ✅ PASS 0 min 0 sec 49 ms
+
+2024-03-31 11:11:22.365 INFO  - Run test NavigationTest.testAboutNavigatesToAboutPage
+
+2024-03-31 11:11:22.378 INFO  - Context created.
+2024-03-31 11:11:22.593 INFO  - Page created.
+2024-03-31 11:11:22.837 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:11:22.976 INFO  - Page closed.
+2024-03-31 11:11:23.031 INFO  - Context closed.
+2024-03-31 11:11:23.032 INFO  - NavigationTest.testAboutNavigatesToAboutPage                   ✅ PASS 0 min 0 sec 129 ms
+
+2024-03-31 11:11:23.035 INFO  - Run test NavigationTest.testAccessoriesNavigatesToAccessoriesPage
+
+2024-03-31 11:11:23.049 INFO  - Context created.
+2024-03-31 11:11:23.233 INFO  - Page created.
+2024-03-31 11:11:23.484 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:11:23.612 INFO  - Page closed.
+2024-03-31 11:11:23.662 INFO  - Context closed.
+2024-03-31 11:11:23.663 INFO  - NavigationTest.testAccessoriesNavigatesToAccessoriesPage       ✅ PASS 0 min 0 sec 115 ms
+
+2024-03-31 11:11:23.665 INFO  - Run test NavigationTest.testMenNavigatesToMenPage
+
+2024-03-31 11:11:23.680 INFO  - Context created.
+2024-03-31 11:11:23.868 INFO  - Page created.
+2024-03-31 11:11:24.136 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:11:24.274 INFO  - Page closed.
+2024-03-31 11:11:24.345 INFO  - Context closed.
+2024-03-31 11:11:24.347 INFO  - NavigationTest.testMenNavigatesToMenPage                       ✅ PASS 0 min 0 sec 129 ms
+
+2024-03-31 11:11:24.349 INFO  - Run test NavigationTest.testWomenNavigatesToWomenPage
+
+2024-03-31 11:11:24.364 INFO  - Context created.
+2024-03-31 11:11:24.544 INFO  - Page created.
+2024-03-31 11:11:24.803 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:11:24.942 INFO  - Page closed.
+2024-03-31 11:11:25.009 INFO  - Context closed.
+2024-03-31 11:11:25.010 INFO  - NavigationTest.testWomenNavigatesToWomenPage                   ✅ PASS 0 min 0 sec 130 ms
+
+2024-03-31 11:11:25.191 INFO  - Browser closed.
+2024-03-31 11:11:25.203 INFO  - Playwright closed.
+2024-03-31 11:12:27.450 INFO  - 
+----------------------------------------------------------------------------------------------------
+										TEST RUN
+								DATA: 2024-31-03, 11:12
+
+----------------------------------------------------------------------------------------------------
+2024-03-31 11:12:27.452 INFO  - Playwright created.
+2024-03-31 11:12:27.452 INFO  - Browser chromium is connected.
+2024-03-31 11:12:27.472 INFO  - Run test NavigationTest.TestBaseUrlLanding
+
+2024-03-31 11:12:27.486 INFO  - Context created.
+2024-03-31 11:12:27.693 INFO  - Page created.
+2024-03-31 11:12:27.970 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:12:28.074 INFO  - Page closed.
+2024-03-31 11:12:28.120 INFO  - Context closed.
+2024-03-31 11:12:28.123 INFO  - NavigationTest.TestBaseUrlLanding                              ✅ PASS 0 min 0 sec 47 ms
+
+2024-03-31 11:12:28.127 INFO  - Run test NavigationTest.testAboutNavigatesToAboutPage
+
+2024-03-31 11:12:28.134 INFO  - Context created.
+2024-03-31 11:12:28.292 INFO  - Page created.
+2024-03-31 11:12:28.542 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:12:28.659 INFO  - Page closed.
+2024-03-31 11:12:28.721 INFO  - Context closed.
+2024-03-31 11:12:28.721 INFO  - NavigationTest.testAboutNavigatesToAboutPage                   ✅ PASS 0 min 0 sec 107 ms
+
+2024-03-31 11:12:28.724 INFO  - Run test NavigationTest.testAccessoriesNavigatesToAccessoriesPage
+
+2024-03-31 11:12:28.739 INFO  - Context created.
+2024-03-31 11:12:28.928 INFO  - Page created.
+2024-03-31 11:12:29.174 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:12:29.330 INFO  - Page closed.
+2024-03-31 11:12:29.371 INFO  - Context closed.
+2024-03-31 11:12:29.372 INFO  - NavigationTest.testAccessoriesNavigatesToAccessoriesPage       ✅ PASS 0 min 0 sec 142 ms
+
+2024-03-31 11:12:29.375 INFO  - Run test NavigationTest.testMenNavigatesToMenPage
+
+2024-03-31 11:12:29.386 INFO  - Context created.
+2024-03-31 11:12:29.596 INFO  - Page created.
+2024-03-31 11:12:29.861 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:12:29.967 INFO  - Page closed.
+2024-03-31 11:12:29.994 INFO  - Context closed.
+2024-03-31 11:12:29.995 INFO  - NavigationTest.testMenNavigatesToMenPage                       ✅ PASS 0 min 0 sec 97 ms
+
+2024-03-31 11:12:29.997 INFO  - Run test NavigationTest.testWomenNavigatesToWomenPage
+
+2024-03-31 11:12:30.010 INFO  - Context created.
+2024-03-31 11:12:30.164 INFO  - Page created.
+2024-03-31 11:12:30.394 INFO  - Base URL is opened and content is not empty.
+2024-03-31 11:12:30.512 INFO  - Page closed.
+2024-03-31 11:12:30.543 INFO  - Context closed.
+2024-03-31 11:12:30.544 INFO  - NavigationTest.testWomenNavigatesToWomenPage                   ✅ PASS 0 min 0 sec 111 ms
+
+2024-03-31 11:12:30.702 INFO  - Browser closed.
+2024-03-31 11:12:30.714 INFO  - Playwright closed.

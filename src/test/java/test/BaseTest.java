@@ -70,7 +70,6 @@ public abstract class BaseTest {
     @AfterMethod
     void closeContext(Method method, ITestResult result) {
 
-
         if (page != null) {
             page.close();
             LoggerUtils.logInfo("Page closed.");

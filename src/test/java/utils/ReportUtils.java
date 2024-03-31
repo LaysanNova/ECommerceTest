@@ -70,15 +70,12 @@ public class ReportUtils {
 
     public static void logTestResult(Method method, ITestResult result) {
 
-        LoggerUtils.logInfo("""                                           
-                                        
+        LoggerUtils.logInfo("""
                 %s %s %s
-                   
                 """.formatted(
-                getTestName(method) + String.format("%" + (70 - getTestName(method).length()) + "s", " "),
+                getTestName(method) + String.format("%" + (62 - getTestName(method).length()) + "s", " "),
                 getTestResult(result),
                 ReportUtils.getTestRunTime(result))
-
         );
     }
 }
