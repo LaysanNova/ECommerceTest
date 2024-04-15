@@ -5,10 +5,7 @@ import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 import utils.LoggerUtils;
 import utils.ReportUtils;
 import utils.runner.BrowserManager;
@@ -22,8 +19,7 @@ import static utils.TestData.HOME_END_POINT;
 public abstract class BaseTest {
 
     private final Playwright playwright = Playwright.create();
-    private final Browser browser = BrowserManager.createBrowser(playwright, ConfigProperties.ENVIRONMENT_CHROMIUM);
-
+    private Browser browser;
     private BrowserContext context;
     private Page page;
 
@@ -38,6 +34,13 @@ public abstract class BaseTest {
             LoggerUtils.logFatal("FATAL: Playwright is NOT created.");
             System.exit(1);
         }
+    }
+
+    @Parameters({"browserOption", "isHeadless", "slowMo"})
+    @BeforeClass
+    void launchBrowser(String browserOption, String isHeadless, String slowMo) {
+
+        browser = BrowserManager.createBrowser(playwright, browserOption, isHeadless, slowMo);
 
         if (browser.isConnected()) {
             LoggerUtils.logInfo("Browser " + browser.browserType().name() + " is connected.");
@@ -46,6 +49,18 @@ public abstract class BaseTest {
             System.exit(1);
         }
     }
+
+//    @BeforeClass
+//    protected void launchBrowser() {
+//        browser = BrowserManager.createBrowser(playwright, ConfigProperties.ENVIRONMENT_CHROMIUM);
+//
+//        if (browser.isConnected()) {
+//            LoggerUtils.logInfo("Browser " + browser.browserType().name() + " is connected.");
+//        } else {
+//            LoggerUtils.logFatal("FATAL: Browser is NOT connected.");
+//            System.exit(1); // выходим из системы с кодом ошибки 1
+//        }
+//    }
 
     @BeforeMethod
     void createContextAndPage(Method method) {
@@ -82,15 +97,21 @@ public abstract class BaseTest {
         ReportUtils.logTestResult(method, result);
     }
 
+    @AfterClass
+    void closeBrowser() {
+        if (browser != null && browser.isConnected()) {
+            browser.close();
+            if (!browser.isConnected()) {
+                LoggerUtils.logInfo("Browser is closed.");
+            }
+        }
+    }
+
     @AfterSuite
     void closeBrowserAndPlaywright() {
-        if (browser != null) {
-            browser.close();
-            LoggerUtils.logInfo("Browser closed.");
-        }
         if (playwright != null) {
             playwright.close();
-            LoggerUtils.logInfo("Playwright closed.");
+            LoggerUtils.logInfo("Playwright is closed.");
         }
     }
 

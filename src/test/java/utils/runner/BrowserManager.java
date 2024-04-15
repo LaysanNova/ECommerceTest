@@ -42,4 +42,36 @@ public final class BrowserManager {
             }
         }
     }
+
+    public static Browser createBrowser(Playwright playwright, String browser, String isHeadlessString, String slowMoString) {
+
+
+//        if (isHeadlessString == null || isHeadlessString.isEmpty() ||  slowMoString.isEmpty()) {
+//        }
+
+        boolean isHeadless = Boolean.parseBoolean(isHeadlessString);
+        int slowMo = Integer.parseInt(slowMoString);
+
+        switch (browser) {
+            case "firefox" -> {
+                return playwright.firefox()
+                        .launch(new BrowserType.LaunchOptions()
+                                .setHeadless(isHeadless)
+                                .setSlowMo(slowMo));
+
+            }
+            case "webkit" -> {
+                return playwright.webkit()
+                        .launch(new BrowserType.LaunchOptions()
+                                .setHeadless(isHeadless)
+                                .setSlowMo(slowMo));
+            }
+            default -> {
+                return playwright.chromium()
+                        .launch(new BrowserType.LaunchOptions()
+                                .setHeadless(isHeadless)
+                                .setSlowMo(slowMo));
+            }
+        }
+    }
 }

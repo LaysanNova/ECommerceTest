@@ -17,20 +17,19 @@ public class ReportUtils {
     }
 
     public static void logReportHeader() {
-        final String header =
-                """                
+        final String header = """
                 
-                %sTEST RUN
-                %sDATA: %s
-                """.formatted(LONG_TABS, SHORT_TABS, getLocalDAteTime());
-        LoggerUtils.logInfo(
-               LINE + header + LINE
-        );
+                
+                %sTest Run
+                %sDate: %s
+                """.formatted(LONG_TABS, SHORT_TABS, getLocalDateTime());
+
+        LoggerUtils.logInfo(LINE + header + LINE);
     }
 
-    private static String getLocalDAteTime(){
+    private static String getLocalDateTime() {
         LocalDateTime dateTimeNow = LocalDateTime.now();
-        DateTimeFormatter dateTimeFormat = DateTimeFormatter.ofPattern("yyyy-dd-MM, HH:mm");
+        DateTimeFormatter dateTimeFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd, HH:mm"); // Date: 2024-03-17, 13:30
 
         return dateTimeNow.format(dateTimeFormat);
     }

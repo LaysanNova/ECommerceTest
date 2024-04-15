@@ -1,0 +1,2 @@
+parameterize xml
+https://medium.com/@iamfaisalkhatri/working-with-multiple-testng-xml-files-f5c36896d6b6
