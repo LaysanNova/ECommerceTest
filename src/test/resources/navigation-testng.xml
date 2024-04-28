@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Ecommerce Website Tests" parallel="tests" thread-count="4" verbose="2">
     <test name="Playwright Tests with Chromium Browser">
-        <parameter name="browserOption" value="chromium"/>
-        <parameter name="isHeadless" value="false"/>
-        <parameter name="slowMo" value="1500"/>
         <classes>
             <class name="test.NavigationTest">
+                <parameter name="browserOption" value="chromium"/>
+                <parameter name="isHeadless" value="true"/>
+                <parameter name="slowMo" value="1500"/>
                 <methods>
                     <include name="TestBaseUrlLanding"/>
                     <include name="testMenuNavigatesToCorrespondingPage"/>
@@ -18,11 +18,11 @@
         </classes>
     </test> <!-- Test -->
     <test name="Playwright Tests with Firefox Browser">
-        <parameter name="browserOption" value="firefox"/>
-        <parameter name="isHeadless" value="false"/>
-        <parameter name="slowMo" value="1500"/>
         <classes>
             <class name="test.NavigationTest">
+                <parameter name="browserOption" value="firefox"/>
+                <parameter name="isHeadless" value="true"/>
+                <parameter name="slowMo" value="1500"/>
                 <methods>
                     <include name="testBannerNavigatesToCorrespondingPage"/>
                     <include name="testBannerNumberNavigatesToCorrespondingPage"/>
@@ -31,11 +31,11 @@
         </classes>
     </test> <!-- Test -->
     <test name="Playwright Tests with Webkit Browser">
-        <parameter name="browserOption" value="webkit"/>
-        <parameter name="isHeadless" value="false"/>
-        <parameter name="slowMo" value="1500"/>
         <classes>
             <class name="test.NavigationTest">
+                <parameter name="browserOption" value="webkit"/>
+                <parameter name="isHeadless" value="true"/>
+                <parameter name="slowMo" value="1500"/>
                 <methods>
                     <include name="testNavigationElementNavigatesToCorrespondingPage"/>
                 </methods>
@@ -43,9 +43,9 @@
         </classes>
     </test> <!-- Test -->
     <test name="Playwright Tests with Edge Browser" enabled="false">
-        <parameter name="browserOption" value="edge"/>
         <classes>
             <class name="test.NavigationTest">
+                <parameter name="browserOption" value="edge"/>
                 <methods>
                     <include name="loginSauceDemoTest"/>
                     <include name="logOutSauceDemoTest"/>

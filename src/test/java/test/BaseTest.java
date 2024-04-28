@@ -34,6 +34,7 @@ public abstract class BaseTest {
             LoggerUtils.logFatal("FATAL: Playwright is NOT created.");
             System.exit(1);
         }
+        LoggerUtils.logInfo(ReportUtils.getLine());
     }
 
     @Parameters({"browserOption", "isHeadless", "slowMo"})
@@ -43,7 +44,9 @@ public abstract class BaseTest {
         browser = BrowserManager.createBrowser(playwright, browserOption, isHeadless, slowMo);
 
         if (browser.isConnected()) {
+            LoggerUtils.logInfo(ReportUtils.getLine());
             LoggerUtils.logInfo("Browser " + browser.browserType().name() + " is connected.");
+            LoggerUtils.logInfo(ReportUtils.getLine());
         } else {
             LoggerUtils.logFatal("FATAL: Browser is NOT connected.");
             System.exit(1);
@@ -102,7 +105,9 @@ public abstract class BaseTest {
         if (browser != null && browser.isConnected()) {
             browser.close();
             if (!browser.isConnected()) {
-                LoggerUtils.logInfo("Browser is closed.");
+                LoggerUtils.logInfo(ReportUtils.getLine());
+                LoggerUtils.logInfo("Browser " + browser.browserType().name() + " is closed.");
+                LoggerUtils.logInfo(ReportUtils.getLine());
             }
         }
     }

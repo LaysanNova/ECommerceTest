@@ -17,8 +17,7 @@ public class ReportUtils {
     }
 
     public static void logReportHeader() {
-        final String header = """
-                
+        final String header = """                
                 
                 %sTest Run
                 %sDate: %s
@@ -75,6 +74,7 @@ public class ReportUtils {
                 getTestName(method) + String.format("%" + (62 - getTestName(method).length()) + "s", " "),
                 getTestResult(result),
                 ReportUtils.getTestRunTime(result))
+                + getLine()
         );
     }
 }
